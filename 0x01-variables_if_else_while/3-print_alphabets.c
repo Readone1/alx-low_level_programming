@@ -5,6 +5,7 @@
  *
  * Return: Always (sucess)
  */
+
 int main(void)
 {
 	int lw = 'a';
