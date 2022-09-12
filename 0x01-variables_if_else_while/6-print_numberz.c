@@ -3,7 +3,7 @@
 /**
  * main - prints the number since 0 to 9
  *
- * Rrturn: Always (sucess)
+ * Return: Always (sucess)
  */
 int main(void)
 {
