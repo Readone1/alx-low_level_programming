@@ -1,26 +1,35 @@
 #include <stdio.h>
 
 /**
- * main - ommit some alphabet
- * you can only use the putchar
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
  * Return: 0
  */
 
 int main(void)
+
 {
-	int lw = 'a';
-	while (lw <= 'z')
+
+	char c = 'a';
+
+	while (c <= 'z')
+
 	{
-		if (lw == 'e' || lw == 'q')
+
+		if (c != 'e' && c != 'q')
+
 		{
-			lw += 1;
+
+			putchar(c);
+
 		}
-		else
-		{
-			putchar(lw);
-			lw += 1;
-		}
+
+		c++;
+
 	}
+
 	putchar('\n');
+
 	return (0);
+
 }
