@@ -17,9 +17,7 @@
  * All your code should be in the main function
  * Return: 0
  */
-
 int main(void)
-
 {
 
 	int c;
@@ -49,23 +47,13 @@ int main(void)
 				{
 
 					putchar(',');
-
 					putchar(' ');
-
 				}
-
 			}
-
 			c++;
-
 		}
-
 		d++;
-
 	}
-
 	putchar('\n');
-
 	return (0);
-
 }
