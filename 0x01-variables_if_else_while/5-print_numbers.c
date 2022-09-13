@@ -1,18 +1,32 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
 /**
- * main - prints the number sice 0 to 9
- *
- * Return: Always (sucess)
+ * main - main block
+ * Description: prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
+ * Return: 0
  */
 
 int main(void)
+
 {
-	int n;
-	while (n < 10)
+
+	char c = '0';
+
+	while (c <= '9')
+
 	{
-		printf("%d", n);
-		n += 1;
+
+		putchar(c);
+
+		c++;
+
 	}
-	printf("\n");
+
+	putchar('\n');
+
 	return (0);
+
 }
