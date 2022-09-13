@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
 /**
  * main - main block
@@ -6,18 +8,14 @@
  * starting from 0, followed by a new line.
  * Return: 0
  */
-
 int main(void)
-
 {
-
-	int c = 0;
-
-	while (c < 10)
-
+	
+	char c = '0';
+	
+	while (c <= '9')
 	{
-
-		putchar(48 + c);
+		putchar(c);
 
 		c++;
 
