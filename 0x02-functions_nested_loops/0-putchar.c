@@ -1,14 +1,9 @@
 #include "main.h"
 
-
-
 /**
- *
- *  * main - the driver function print _putchar followed on a new line
- *
- *   * Return: Always 0
- *
- *    */
+ * main - the driver function print _putchar followed on a new line
+ * Return: Always 0
+ */
 
 int main(void)
 
